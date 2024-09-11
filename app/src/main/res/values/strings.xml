@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Humanity</string>
+    <string name="home">Home</string>
+    <string name="giving">Giving</string>
+    <string name="happiness">Happiness</string>
+    <string name="kindness">Kindness</string>
+    <string name="optimism">Optimism</string>
+    <string name="respect">Respect</string>
 </resources>
