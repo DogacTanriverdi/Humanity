@@ -3,6 +3,7 @@ package com.dogactanriverdi.humanity.presentation.optimism
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import com.bumptech.glide.Glide
 import com.dogactanriverdi.humanity.R
 import com.dogactanriverdi.humanity.common.viewBinding
 import com.dogactanriverdi.humanity.databinding.FragmentOptimismBinding
@@ -14,6 +15,9 @@ class OptimismFragment : Fragment(R.layout.fragment_optimism) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
+        Glide.with(requireView())
+            .asGif()
+            .load(R.drawable.optimism)
+            .into(binding.ivOptimism)
     }
 }
