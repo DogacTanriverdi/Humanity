@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".presentation.kindness.KindnessFragment">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/ivKindness"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/the_cat_holds_its_umbrella_to_the_mouse"
+        android:scaleType="centerCrop"/>
+
+</LinearLayout>
