@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Humanity</string>
     <string name="home">Home</string>
+    <string name="ego">Ego</string>
     <string name="giving">Giving</string>
     <string name="happiness">Happiness</string>
     <string name="kindness">Kindness</string>
